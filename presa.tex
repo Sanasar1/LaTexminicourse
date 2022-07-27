@@ -1,0 +1,89 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+
+\usetheme{Boadilla}
+\usecolortheme{default}
+
+
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\title[Introduction to LaTeX] 
+{Fun facts about dogs}
+
+\author[Almasyan] 
+{Almasyan S.B.}
+
+\institute[HSE] 
+{
+  Faculty of Computer Science \\
+  HSE University
+}
+
+\date[July 2022] 
+{LaTeX Course, July 2022}
+
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Table of Contents}
+\tableofcontents
+\end{frame}
+
+
+\section{Facts}
+
+\begin{frame}
+\frametitle{Dogs are cool!}
+\begin{block}{Brief introduction of the company}
+10 fun facts about dogs
+\begin{itemize}
+    \item 1 Their sense of smell is at least 40x better than ours
+    \item 2 Some have such good noses they can sniff out medical problems
+    \item 3 Dogs can sniff at the same time as breathing
+    \item 4 Some dogs are incredible swimmers
+    \item 5 Some are fast and could even beat a cheetah!
+    \item 6 Dogs don’t sweat like we do
+    \item 7 Your dog could be left or right-pawed
+    \item 8 Along with their noses, their hearing is super sensitive
+    \item 9 Dogs have 18 muscles controlling their ears
+    \item 10 Dogs are about as intelligent as a two-year-old
+\end{itemize}
+\end{block}
+\end{frame}
+
+\section{Pictures}
+
+
+\begin{frame}{Have a look at those cuties}
+\begin{center}
+\includegraphics[width=.3\linewidth,height=4.5cm]{photos/breed_profile_corgi_1117986_recirc_917-ac4ab4ec3cb6469397c6c023e7c28b28.jpg}\quad\includegraphics[width=.3\linewidth,height=4.5cm]{photos/ef1dc3b0c5c1cbd7d7d0a27cdcb06e3b.jpg}\quad\includegraphics[width=.3\linewidth,height=4.5cm]{photos/fa41ace1ab4cde11018a9b224e488806.jpg}
+\\[\baselineskip]
+\end{center}
+
+    
+\end{frame}
+
+
+\end{document}
